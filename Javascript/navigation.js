@@ -65,19 +65,19 @@ function navigate5(pages){
     switch(pages){
         case 1:
             console.log("tostring here");
-            window.location.href = "../index.html";
+            window.location.href = "WSOA3028_Assignment2PortfolioWebsite/index.html";
             break;
         case 2:
-            window.location.href = "../Games/games.html";
+            window.location.href = "WSOA3028_Assignment2PortfolioWebsite/Games/games.html";
             break;
         case 3:
-            window.location.href = "../Code Projects/codeProjects.html";
+            window.location.href = "WSOA3028_Assignment2PortfolioWebsite/Code Projects/codeProjects.html";
             break;
         case 4:
-            window.location.href = "../Blog/blog.html";
+            window.location.href = "WSOA3028_Assignment2PortfolioWebsite/Blog/blog.html";
             break;
         case 5:
-            window.location.href = "../Design Doc Page/design.html";
+            window.location.href = "WSOA3028_Assignment2PortfolioWebsite/Design Doc Page/design.html";
             break; 
     }
 }
