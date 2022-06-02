@@ -65,10 +65,10 @@ function navigate5(pages){
     switch(pages){
         case 1:
             console.log("tostring here");
-            window.location.href = "../index.html";
+            window.location.href = "WSOA3028_Assignment2PortfolioWebsite/index.html";
             break;
         case 2:
-            window.location.href = "../Games/games.html";
+            window.location.href = "WSOA3028_Assignment2PortfolioWebsite/Games/games.html";
             break;
         case 3:
             window.location.href = "../Code Projects/codeProjects.html";
