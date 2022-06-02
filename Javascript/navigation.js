@@ -77,7 +77,7 @@ function navigate5(pages){
             window.location.href = "Blog/blog.html";
             break;
         case 5:
-            window.location.href = "Design Doc Page/design.html";
+            window.location.href = "Design Doc Page/design.html";//This file referencing style works for java in github
             break; 
     }
 }
