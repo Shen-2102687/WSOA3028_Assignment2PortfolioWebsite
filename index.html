@@ -9,6 +9,9 @@
     <title>Home</title>
     <link rel="stylesheet" href="CSS/normalize.css" />
     <link rel="stylesheet" href="CSS/style.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="Javascript/navigation.js"></script>
+    
   </head>
   <body>
     <header>
@@ -17,14 +20,14 @@
 
       <label for="siteTitle" class="siteTitle">Portfolio Website</label>
 
-      <nav>
+      <nav class="navBar">
         <ul>
-          <li><a href="index.html" class="active"> Home</a></li>
-          <li><a href="Games/games.html"> Games</a></li>
+          <li id="Home" onclick="navigate5(1)" class="active"><!--<a href="index.html" class="active"> Home</a>-->Home</li>
+          <li id="Games" onclick="navigate5(2)"><!--<a href="Games/games.html"> Games</a>-->Games</li>
           <!--<li><a href="/Artwork/artwork.html"> Artwork</a></li>-->
-          <li><a href="Code Projects/codeProjects.html"> Code Projects</a></li>
-          <li><a href="Blog/blog.html"> Blogs</a></li>
-          <li><a href="Design Doc Page/design.html"> Design/Wireframes</a></li>
+          <li id="codeProjects" onclick="navigate5(3)" ><!--<a href="Code Projects/codeProjects.html"> Code Projects</a>-->Code Projects</li>
+          <li id="Blogs" onclick="navigate5(4)"><!--<a href="Blog/blog.html"> Blogs</a>-->Blogs</li>
+          <li id="Design/Wireframes" onclick="navigate5(5)"><!--<a href="Design Doc Page/design.html"> Design/Wireframes</a>-->Design/Wireframes</li>
         </ul>
       </nav>
     </header>
