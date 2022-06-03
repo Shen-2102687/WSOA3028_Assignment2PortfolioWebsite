@@ -91,5 +91,14 @@ function navigate5(pages){
         case 9:
             window.location.href = "Code Projects/codeProjects2.html";
             break;
+        case 10:
+            window.location.href = "Blog/blog1.html";
+            break;
+        case 11:
+            window.location.href = "Blog/blog2.html";
+            break;
+        case 12:
+            window.location.href = "Blog/blog3.html";
+            break;
     }
 }

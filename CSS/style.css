@@ -87,9 +87,10 @@ a.active{
     text-align: center;
 }
 
-.blogList ul li a:hover{
+.blogList ul li:hover{
     /*background: #dedede;*/
     background: #edeff0;
+    cursor: pointer;
 }
 
 .blogHeading{
