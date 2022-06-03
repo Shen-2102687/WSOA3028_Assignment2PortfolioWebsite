@@ -84,6 +84,12 @@ function navigate5(pages){
             break;
         case 7:
             window.location.href = "Games/games2.html";
-            break; 
+            break;
+        case 8:
+            window.location.href = "Code Projects/codeProjects1.html";
+            break;
+        case 9:
+            window.location.href = "Code Projects/codeProjects2.html";
+            break;
     }
 }

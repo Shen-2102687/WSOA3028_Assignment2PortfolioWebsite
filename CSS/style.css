@@ -135,8 +135,9 @@ a.active{
     border-radius: 10%;
 }
 
-.backToBlogs a:hover{
+.backToBlogs:hover{
     background: #edeff0;
+    cursor: pointer;
 }
 
 .backToBlogs{
@@ -236,8 +237,9 @@ body{
     font-weight: bold;
 }
 
-.codeProjectList ul li a:hover{
+.codeProjectList ul li:hover{
     background: #edeff0;
+    cursor: pointer;
 }
 
 .codeProjectHeading{
