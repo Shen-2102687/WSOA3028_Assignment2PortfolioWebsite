@@ -190,20 +190,48 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.gamesList ul{
+/*.gamesList ul{
     margin-left: 10%;
     margin-top: 10%;
     margin-bottom: 18%;
-}
+}*/
 
-.gamesList ul li{
+/*.gamesList ul li{
     display: inline-block;
     /*margin-left: 10%;
     padding: 10% 20% 10% 10%;
     background-color: #fcfeff;
     box-shadow: 3px 1px 5px 1px #b4bbbf;
     border-radius: 8px; this works*/ 
-    margin-right: 5%;
+    /*margin-right: 5%;
+}*/
+
+.gamesList ul li{
+    /*background: blue;*/
+    margin: 10px;
+    /*width: 10rem;
+    height: 5rem;*/
+    /*width: 20vw;
+    height: 30vh;*/
+    text-align: center;
+    background-color: #fcfeff;
+    box-shadow: 3px 1px 5px 1px #b4bbbf;
+    border-radius: 8px;
+    /*padding: 100px 150px 100px 150px;*/
+    padding: 15vh 10vw;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.gamesList ul{
+    margin: 0%;
+    margin-top: 30px;
+    padding: 0%;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .gamesList ul li a{
