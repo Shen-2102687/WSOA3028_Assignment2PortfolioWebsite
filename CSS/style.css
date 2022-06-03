@@ -258,7 +258,7 @@ body{
     font-size: 50px;
 }
 
-.codeProjectList ul{
+/*.codeProjectList ul{
     margin-left: 9%;
     margin-top: 11%;
     margin-bottom: 18%;
@@ -267,6 +267,27 @@ body{
 .codeProjectList ul li{
     display: inline-block;
     margin-right: 5%;
+}*/
+
+.codeProjectList ul{
+    margin: 0%;
+    margin-top: 30px;
+    padding: 0%;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.codeProjectList ul li{
+    margin: 10px;
+    text-align: center;
+    background-color: #fcfeff;
+    box-shadow: 3px 1px 5px 1px #b4bbbf;
+    border-radius: 8px;
+    padding: 15vh 7vw;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .codeProjectList ul li a{
