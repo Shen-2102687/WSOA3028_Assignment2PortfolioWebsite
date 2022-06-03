@@ -203,8 +203,9 @@ body{
 }
 
 
-.gamesList ul li a:hover{
+.gamesList ul li:hover{
     background: #edeff0;
+    cursor: pointer;
 }
 
 .gamesHeading{
