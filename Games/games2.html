@@ -9,25 +9,25 @@
     <title>Game 2</title>
     <link rel="stylesheet" href="../CSS/normalize.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
+    <base href="../">
   </head>
   <body>
     <header>
       <label for="siteTitle" class="siteTitle">Portfolio Website</label>
       <nav>
         <ul>
-          <li><a href="../index.html"> Home</a></li>
-          <li><a href="Games/games.html" class="active"> Games</a></li>
-          <!--<li><a href="/Artwork/artwork.html"> Artwork</a></li>-->
-          <li><a href="../Code Projects/codeProjects.html"> Code Projects</a></li>
-          <li><a href="../Blog/blog.html"> Blogs</a></li>
-          <li><a href="../Design Doc Page/design.html"> Design/Wireframes</a></li>
+            <li id="Home" onclick="navigate5(1)">Home</li>
+            <li id="Games" onclick="navigate5(2)" class="active">Games</li>
+            <li id="codeProjects" onclick="navigate5(3)">Code Projects</li>
+            <li id="Blogs" onclick="navigate5(4)">Blogs</li>
+            <li id="Design/Wireframes" onclick="navigate5(5)">Design/Wireframes</li>
         </ul>
       </nav>
     </header>
 
     <section class="game2Logo">
       <img
-        src="Ninja vs Sushi Logo.png"
+        src="Games/Ninja vs Sushi Logo.png"
         alt="Logo for the game Meteor Pong"
       />
     </section>
@@ -71,4 +71,6 @@
       <p>All Code, Games, Images and Documents belong to me, Shen Reddy© 2022</p>
     </footer>
   </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="Javascript/navigation.js"></script>
 </html>
