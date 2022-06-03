@@ -9,6 +9,7 @@
     <title>Design</title>
     <link rel="stylesheet" href="../CSS/normalize.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
+    <base href="../">
 </head>
 <body>
     
@@ -17,12 +18,11 @@
         <label for="siteTitle" class="siteTitle">Portfolio Website</label>
         <nav>
             <ul>
-                <li><a href="../index.html"> Home</a></li>
-                <li><a href="../Games/games.html"> Games</a></li>
-                <!--<li><a href="/Artwork/artwork.html"> Artwork</a></li>-->
-                <li><a href="../Code Projects/codeProjects.html"> Code Projects</a></li>
-                <li><a href="../Blog/blog.html"> Blogs</a></li>
-                <li><a href="Design Doc Page/design.html" class="active"> Design/Wireframes</a></li>
+                <li id="Home" onclick="navigate5(1)">Home</li>
+                <li id="Games" onclick="navigate5(2)">Games</li>
+                <li id="codeProjects" onclick="navigate5(3)">Code Projects</li>
+                <li id="Blogs" onclick="navigate5(4)">Blogs</li>
+                <li id="Design/Wireframes" onclick="navigate5(5)" class="active">Design/Wireframes</li>
             </ul>
         </nav>
     </header>
@@ -32,11 +32,13 @@
     <h1 class="wireframeH1">Wireframes and Designs</h1>
 
     <section class="pdfDoc">
-        <iframe src="Wireframe and Designs.pdf" type="application/pdf" style="width: 1000px; height: 1080px;"></iframe>
+        <iframe src="Design Doc Page/Wireframe and Designs.pdf" type="application/pdf" style="width: 1000px; height: 1080px;"></iframe>
     </section>
 
     <footer>
         <p>All Code, Games, Images and Documents belong to me, Shen Reddy© 2022</p>
       </footer>
 </body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="Javascript/navigation.js"></script>
 </html>
