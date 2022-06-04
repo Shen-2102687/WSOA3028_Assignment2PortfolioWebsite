@@ -26,10 +26,18 @@
       </nav>
     </header>
 
-    <h1 class="blogHeading">Blogs</h1>
+    <h1 class="blogHeading" onclick="sortBlogs()">Blogs</h1>
+
+    <div class="dropDownSort">
+        <button class="sortButton">Sort Blogs</button>
+        <ul class="sortOptions">
+        <li id="recentToOldest" onclick="sortBlogsRecent()">Recent-Oldest</li>
+        <li id="oldestToRecent" onclick="sortBlogsOldest()">Oldest-Recent</li>
+      </ul>
+    </div>
 
     <section class="blogList">
-      <ul class="h-feed">
+      <ul class="h-feed" id="blogs">
         <li onclick="navigate5(10)"><br>Critical Writing 1:<br>A reflection of Simon Harper’s reflection of “As We May Think”<br> <br>Posted: 14 March 2022</li>
         <li onclick="navigate5(11)"><br>Critical Writing 2:<br>What is a browser? How do they work?<br> <br>Posted: 28 March 2022</li>
         <li onclick="navigate5(12)"><br>Critical Writing 3:<br>The Uses of Metadata - What, Why and How?<br> <br>Posted: 16 April 2022</li>

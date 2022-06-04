@@ -186,6 +186,60 @@ li.active{
     margin-top: 2%;
 }
 
+.dropDownSort{
+    position: relative;
+    left: 30%;
+    top: 60px;
+    display: inline-block;
+}
+
+
+.sortButton{
+    background-color: rgb(104, 132, 173);
+    /*box-shadow: 1px 0px 5px 0px #b4bbbf;*/
+    color: #fffdf5;
+    font-weight: bold;
+    padding: 11px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    /*cursor: pointer;*/
+}
+
+.sortOptions{
+    display: none;
+    position: absolute;
+    background-color: #fcfeff;
+    min-width: 120px;
+    box-shadow: 3px 1px 5px 1px #b4bbbf;
+    z-index: 1;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.sortOptions li{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.sortOptions li:hover{
+    background-color: #edeff0;
+}
+
+.dropDownSort:hover .sortOptions{
+    display: block;
+}
+
+.dropDownSort:hover .sortButton{
+    background: #abbed9;
+    color: #ffffff;
+}
+
 footer{
     margin: 10% 0 0 0;
     text-align: center;

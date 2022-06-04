@@ -102,3 +102,15 @@ function navigate5(pages){
             break;
     }
 }
+
+/*function sortBlogs(){
+    document.getElementById("blogs").style.flexDirection = "column-reverse";
+}*/
+
+function sortBlogsRecent(){
+    document.getElementById("blogs").style.flexDirection = "column-reverse";
+}
+
+function sortBlogsOldest(){
+    document.getElementById("blogs").style.flexDirection = "column";
+}
