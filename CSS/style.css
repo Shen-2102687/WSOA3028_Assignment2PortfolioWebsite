@@ -501,4 +501,9 @@ cursor:pointer;
         font-size: 17px;
     }
 
+    footer{
+        position: relative;
+        top: 20px;
+    }
+
 }
