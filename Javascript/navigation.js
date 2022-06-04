@@ -114,3 +114,10 @@ function sortBlogsRecent(){
 function sortBlogsOldest(){
     document.getElementById("blogs").style.flexDirection = "column";
 }
+
+function confirmRedirect(){
+    confirm("A new tab will open and take you to the GitHub Repo");
+}
+
+var downloadLink = document.getElementById("gitHubLink");
+downloadLink.onclick = confirmRedirect;
