@@ -507,3 +507,91 @@ cursor:pointer;
     }
 
 }
+
+@media(max-width: 600px){
+    header nav ul{
+        display: none;
+    }
+
+    .gamesList ul{
+        margin-top: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gamesList ul li{
+        margin: 30px;
+        text-align: center;
+        background-color: #fcfeff;
+        box-shadow: 3px 1px 5px 1px #b4bbbf;
+        border-radius: 8px;
+        font-size: 30px;
+        font-weight: bold;
+        width: 50vw;
+        height: 20vh;
+        padding: 0;
+    }
+
+    .gamesHeading{
+        margin-left: 38%;
+        margin-top: 50px;
+    }
+
+    .codeProjectList ul{
+        margin-top: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .codeProjectList ul li{
+        margin: 30px;
+        text-align: center;
+        background-color: #fcfeff;
+        box-shadow: 3px 1px 5px 1px #b4bbbf;
+        border-radius: 8px;
+        padding: 0;
+        font-size: 30px;
+        width: 50vw;
+        height: 20vh;
+    }
+
+    .codeProjectHeading{
+        margin-left: 25%;
+        margin-top: 50px;
+    }
+
+    .blogList ul li{
+        font-size: 15px;
+        width: 50vw;
+        height: 15vh;
+    }
+
+    .blogHeading{
+        margin-left: 42%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .dropDownSort{
+        position: relative;
+        left: 4%;
+        top: 60px;
+        display: inline-block;
+    }
+
+    .sortButton{
+        padding: 9px;
+        font-size: 15px;
+        border-radius: 4px;
+        border: none;
+    }
+
+    .sortOptions{
+        min-width: 80px;
+    }
+
+    .sortOptions li{
+        font-size: 14px;
+    }
+
+}
