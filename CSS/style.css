@@ -19,6 +19,8 @@ header{
     top: 25px;
 }*/
 
+
+
 .siteTitle{
     color: #fffdf5;
     font-weight: bold;
@@ -240,8 +242,10 @@ li.active{
     color: #ffffff;
 }
 
+
 footer{
-    margin: 10% 0 0 0;
+    /*margin: 10% 0 0 0;*/
+    margin-top: 10%;
     text-align: center;
     background: #8794a8;
     width: 100vw;
@@ -473,3 +477,26 @@ cursor:pointer;
 #Games:hover{
 cursor:pointer;
 }*/
+
+@media(max-width: 1400px){
+    header{
+        height: 80px;
+    }
+
+    header nav ul li{
+        font-size: 20px;
+        bottom: 58px;
+    }
+
+    .siteTitle{
+        font-size: 30px;
+    }
+
+    li.active{
+        padding: 37px 15px 28px 15px;
+    }
+
+    .blogList ul li{
+        height: 15vh;
+    }
+}
