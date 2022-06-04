@@ -5,5 +5,9 @@ function confirmRedirect(){
 /*var downloadLink = document.getElementById("gitHubLink");
 downloadLink.onclick = confirmRedirect;*/
 
-document.getElementById("gitHubLink").addEventListener("click", confirmRedirect);
+
+
+$(document).ready(function(){
+    document.getElementById("gitHubLink").addEventListener("click", confirmRedirect);
+});
 
