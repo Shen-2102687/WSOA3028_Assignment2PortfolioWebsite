@@ -497,6 +497,8 @@ cursor:pointer;
     }
 
     .blogList ul li{
-        height: 15vh;
+        height: 17vh;
+        font-size: 17px;
     }
+
 }
