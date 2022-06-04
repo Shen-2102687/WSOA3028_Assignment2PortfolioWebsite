@@ -107,6 +107,8 @@ function navigate5(pages){
     document.getElementById("blogs").style.flexDirection = "column-reverse";
 }*/
 
+
+
 function sortBlogsRecent(){
     document.getElementById("blogs").style.flexDirection = "column-reverse";
 }
@@ -115,9 +117,11 @@ function sortBlogsOldest(){
     document.getElementById("blogs").style.flexDirection = "column";
 }
 
-function confirmRedirect(){
+/*function confirmRedirect(){
     confirm("A new tab will open and take you to the GitHub Repo");
-}
+}*/
 
-var downloadLink = document.getElementById("gitHubLink");
-downloadLink.onclick = confirmRedirect;
+/*var downloadLink = document.getElementById("gitHubLink");
+downloadLink.onclick = confirmRedirect;*/
+
+/*document.getElementById("gitHubLink").addEventListener("click", confirmRedirect);*/
