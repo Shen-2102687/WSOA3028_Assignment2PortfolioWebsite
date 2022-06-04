@@ -509,8 +509,12 @@ cursor:pointer;
 }
 
 @media(max-width: 600px){
-    header nav ul{
+    /*header nav ul{
         display: none;
+    }*/
+
+    header nav ul li{
+        color: black;
     }
 
     .gamesList ul{
