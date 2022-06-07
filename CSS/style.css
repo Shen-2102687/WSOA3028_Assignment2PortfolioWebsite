@@ -478,6 +478,12 @@ cursor:pointer;
 cursor:pointer;
 }*/
 
+.iconBars{
+    color: #fffdf5;
+    /*color: black;*/
+    display: none;
+}
+
 @media(max-width: 1400px){
     header{
         height: 80px;
@@ -509,12 +515,36 @@ cursor:pointer;
 }
 
 @media(max-width: 600px){
-    /*header nav ul{
-        display: none;
-    }*/
+    header nav ul{
+        /*display: none;*/
+        margin: 0;
+        float: left;
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(78, 80, 89, 0.655);
+        height: 100vh;
+        width: 100%;
+    }
+
+    .iconBars{
+        display: block;
+        float: right;
+        margin-right: 30px;
+        font-size: 30px;
+        position: relative;
+        bottom: 6px;
+    }
 
     header nav ul li{
         color: black;
+        display: block;
+        margin: 0;
+        position: unset;
+        width: 90px;
+    }
+
+    li.active{
+        padding: 20px 15px 20px 15px;
     }
 
     .gamesList ul{
