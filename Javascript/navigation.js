@@ -128,9 +128,11 @@ downloadLink.onclick = confirmRedirect;*/
 
 function navMobile(){
     var navTab = document.getElementById("mobileNav");
-    if(navTab.style.display == "none"){
-        navTab.style.display = "block";
-    }else{
+    if(navTab.style.display == "block"){
         navTab.style.display = "none";
+    }else{
+        navTab.style.display = "block";
     }
 }
+
+
