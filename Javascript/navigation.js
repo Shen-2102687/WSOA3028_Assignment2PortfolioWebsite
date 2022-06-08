@@ -125,3 +125,12 @@ function sortBlogsOldest(){
 downloadLink.onclick = confirmRedirect;*/
 
 /*document.getElementById("gitHubLink").addEventListener("click", confirmRedirect);*/
+
+function navMobile(){
+    var navTab = document.getElementById("mobileNav");
+    if(navTab.style.display == "none"){
+        navTab.style.display = "block";
+    }else{
+        navTab.style.display = "none";
+    }
+}
