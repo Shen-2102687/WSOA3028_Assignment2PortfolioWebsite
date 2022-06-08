@@ -515,6 +515,10 @@ cursor:pointer;
 }
 
 @media(max-width: 600px){
+    .siteTitle{
+        margin-left: 25px;
+    }
+
     header nav ul{
         display: none;
         /*margin: 0;*/
@@ -532,8 +536,9 @@ cursor:pointer;
         float: right;
         margin-right: 30px;
         font-size: 30px;
+        padding: 5px;
         position: relative;
-        bottom: 6px;
+        bottom: 11px;
     }
 
     .iconBars:hover{

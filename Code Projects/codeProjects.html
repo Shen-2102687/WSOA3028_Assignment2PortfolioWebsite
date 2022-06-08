@@ -9,6 +9,7 @@
     <title>Code Projects</title>
     <link rel="stylesheet" href="../CSS/normalize.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
+    <script src="https://kit.fontawesome.com/70daf74b97.js" crossorigin="anonymous"></script>
     <base href="../">
 </head>
 <body>
@@ -16,13 +17,14 @@
     <header>
         <label for="siteTitle" class="siteTitle">Portfolio Website</label>
         <nav>
-            <ul>
+            <ul id="mobileNav">
                 <li id="Home" onclick="navigate5(1)">Home</li>
                 <li id="Games" onclick="navigate5(2)">Games</li>
                 <li id="codeProjects" onclick="navigate5(3)" class="active">Code Projects</li>
                 <li id="Blogs" onclick="navigate5(4)">Blogs</li>
                 <li id="Design/Wireframes" onclick="navigate5(5)">Design/Wireframes</li>
             </ul>
+            <label class="iconBars"><i class="fa-solid fa-bars" onclick="navMobile()"></i></label>
         </nav>
     </header>
 
