@@ -670,4 +670,18 @@ cursor:pointer;
         font-size: 14px;
     }
 
+    .blog1Post article{
+        font-size: 17px;
+    }
+
+    .References{
+        /*margin: 2% 20% 4% 20%;*/
+        font-size: 13px;
+        margin-left: 10%;
+    }
+
+    .References p a{
+        margin-right: 0%;
+    }
+
 }
