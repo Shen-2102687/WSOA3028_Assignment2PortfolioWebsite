@@ -677,11 +677,8 @@ cursor:pointer;
     .References{
         /*margin: 2% 20% 4% 20%;*/
         font-size: 13px;
-        margin-left: 10%;
+        overflow-wrap: break-word;
     }
 
-    .References p a{
-        margin-right: 0%;
-    }
 
 }
