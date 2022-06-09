@@ -470,6 +470,14 @@ body{
     margin-top: 4%;
 }
 
+.wireFrames{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+}
+
 /*#Home:hover{
 cursor:pointer;
 }
