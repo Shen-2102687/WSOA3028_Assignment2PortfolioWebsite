@@ -1,5 +1,5 @@
 function confirmRedirect(){
-    confirm("A new tab will open and take you to the GitHub Repo");
+    alert("A new tab will open and take you to the GitHub Repo");
 }
 
 /*var downloadLink = document.getElementById("gitHubLink");
@@ -11,3 +11,6 @@ $(document).ready(function(){
     document.getElementById("gitHubLink").addEventListener("click", confirmRedirect);
 });
 
+$(window).resize(function(){
+    location.reload();
+});
