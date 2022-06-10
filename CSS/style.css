@@ -500,6 +500,16 @@ cursor:pointer;
     display: none;
 }
 
+.boldTitle{
+    font-weight: bold;
+}
+
+.newBlogH1{
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
 @media(max-width: 1400px){
     header{
         height: 80px;
